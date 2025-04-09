@@ -228,7 +228,7 @@ function takeCommand(message) {
         speak("Hello Sir");
     }
     else if (cleanMessage.includes('who are you')) {
-        speak("I am JARVIS, your personal AI assistant.");
+        speak("I am JARVIS, your personal assistant.");
     }
     else if (cleanMessage.includes('who made you')) {
         speak("I was designed to serve as your virtual assistant.");
