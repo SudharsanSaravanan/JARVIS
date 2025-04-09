@@ -17,7 +17,6 @@
 - ⏲️ **Set Timers**: "Set timer for 5 minutes" triggers a reminder.
 - 😂 **Jokes**: Tells a random tech or pun joke when asked.
 - 🧠 **Command History**: Remembers and displays your last 5 commands using localStorage.
-- 📱 **Mobile Friendly**: Detects mobile devices and gives vibration feedback.
 
 ---
 
@@ -26,7 +25,6 @@
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-- Web Speech API (Speech Recognition + Speech Synthesis)
 
 ---
 
