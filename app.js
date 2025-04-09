@@ -311,6 +311,19 @@ function takeCommand(message) {
     else if (cleanMessage.includes('thank you') || cleanMessage.includes('thanks')) {
         speak("You're welcome");
     }
+    else if (cleanMessage.includes('tell me a joke') || cleanMessage.includes('say a joke')) {
+        const jokes = [
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "Why did the scarecrow win an award? Because he was outstanding in his field!",
+            "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+            "What do you call a fake noodle? An impasta!",
+            "Why couldn't the bicycle stand up by itself? It was two tired!",
+            "What's the best thing about Switzerland? I don't know, but the flag is a big plus.",
+            "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them.",
+            "Why did the programmer quit his job? Because he didn't get arrays!"
+        ];
+        speak(jokes[Math.floor(Math.random() * jokes.length)]);
+    }
     
     // Default action for all other commands - search Google
     else {
